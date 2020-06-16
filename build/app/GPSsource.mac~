@@ -1,0 +1,24 @@
+#
+### GPS source emission: cyringer with - Tc-99m
+#
+###/gps/particle gamma
+###/gps/energy 0.142683611 MeV
+###/gps/ang/type iso
+###/gps/ene/type Mono
+
+/gps/particle ion
+/gps/ion 43 99 0 0.142683611
+
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 2.9 0 cm
+/gps/pos/radius 0.8 cm
+/gps/pos/halfz 0.9 cm
+
+#/vis/disable
+#/tracking/storeTrajectory 0
+##/run/beamOn 3737399
+###/run/beamOn 10
+
+#write ntuple
+###/score/ntuple/writerFileName Tc99m_scorer.root

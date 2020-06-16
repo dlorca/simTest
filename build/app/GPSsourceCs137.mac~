@@ -1,0 +1,22 @@
+#
+### GPS source emission: Cs137 in bottle
+#
+###/gps/particle gamma
+###/gps/energy 0.142683611 MeV
+###/gps/ang/type iso
+###/gps/ene/type Mono
+
+/gps/particle ion
+/gps/ion 55 137 0 0
+
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 1.5 0 cm
+/gps/pos/radius 1.5 cm
+/gps/pos/halfz 1.5 cm
+
+#/vis/disable
+#/tracking/storeTrajectory 0
+##/run/beamOn 3737399138432
+###/run/beamOn 10
+
